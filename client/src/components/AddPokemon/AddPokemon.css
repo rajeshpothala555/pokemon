@@ -1,0 +1,100 @@
+/* General Container Styles */
+.container {
+  max-width: 1200px; /* Increased width */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  margin-top: 5%;
+}
+
+/* Header Styles */
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  flex: 1;
+  margin: 0 10px;
+  text-wrap: nowrap;
+}
+
+.input-group:first-child {
+  margin-left: 0;
+}
+
+.input-group:last-child {
+  margin-right: 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+button {
+  align-self: center;
+  width: 100px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Button Group Styles */
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+/* Specific Button Styles */
+.home-button {
+  background-color: #28a745;
+}
+
+.list-button {
+  background-color: #ffc107;
+}
+
+.home-button:hover {
+  background-color: #218838;
+}
+
+.list-button:hover {
+  background-color: #e0a800;
+}

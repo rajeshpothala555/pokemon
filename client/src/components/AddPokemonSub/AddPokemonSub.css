@@ -1,0 +1,56 @@
+/* AddPokemonSub.css */
+.add-pokemon-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-pokemon-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .add-pokemon-form div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px; 
+  }
+  
+  .add-pokemon-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-pokemon-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+  }
+  
+  .add-pokemon-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .button-poke{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .add-pokemon-button:hover {
+    background-color: #45a049;
+  }
+  
